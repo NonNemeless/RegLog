@@ -1,0 +1,9 @@
+CREATE TABLE "loginDetails" (
+	"id"	INTEGER NOT NULL,
+	"username"	TEXT NOT NULL,
+	"password"	TEXT NOT NULL,
+	"salt"	TEXT NOT NULL,
+	"mail"	TEXT NOT NULL,
+	"phonenumber"	TEXT NOT NULL,
+	PRIMARY KEY("id")
+);
